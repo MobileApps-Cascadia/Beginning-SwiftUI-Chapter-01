@@ -18,13 +18,28 @@ struct ContentView: View {
                 .padding()
             TextField("Enter your name", text: $text)
                 .padding()
-            Text("Hello, \(text)!")
+            
+            Button(action: {
+                    UIPasteboard.general.string = text
+                }, label: {
+                    Text("Copy")
+                        .font(.title2)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.pink)
+                        .cornerRadius(10)
+                })
+            .padding()
+            
+            Text("Copied Text: \(text)")
                 .font(.title)
                 .fontWeight(.heavy)
                 .foregroundColor(Color.pink)
                 .padding()
+            
             Divider()
                 .padding()
+            
         }
         .padding()
     }
