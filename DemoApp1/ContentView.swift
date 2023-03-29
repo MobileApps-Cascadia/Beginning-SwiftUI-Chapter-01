@@ -3,7 +3,10 @@
 //  DemoApp1
 //
 //  Created by Mike Panitz on 3/27/23.
-//
+// I was honestly very shocked and surprised
+// with how well it can code.
+// as discussed in class this seems to do easy to moderate code fairly easily. This fact really intruiges me. Because of this just knowing what to look for will save so much time as I will now need to sift through A LOT LESS stack overflow.
+// I am excited to see how this advances to ease a programmers stress and lessen the time to create their projects. Also if this advances enough maybe AAA game companies will finally get their games out on time.
 
 import SwiftUI
 
