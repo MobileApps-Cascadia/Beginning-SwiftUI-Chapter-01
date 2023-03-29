@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7C7CF929D3B8B300E01BB1 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C7CF829D3B8B300E01BB1 /* ContentView2.swift */; };
+		2C7C7CFB29D3B90E00E01BB1 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7C7CFA29D3B90E00E01BB1 /* ContentView3.swift */; };
 		E470617729D2A4E1004BAE87 /* DemoApp1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470617629D2A4E1004BAE87 /* DemoApp1App.swift */; };
 		E470617929D2A4E1004BAE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E470617829D2A4E1004BAE87 /* ContentView.swift */; };
 		E470617B29D2A4E4004BAE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E470617A29D2A4E4004BAE87 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7C7CF829D3B8B300E01BB1 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		2C7C7CFA29D3B90E00E01BB1 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		E470617329D2A4E1004BAE87 /* DemoApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E470617629D2A4E1004BAE87 /* DemoApp1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp1App.swift; sourceTree = "<group>"; };
 		E470617829D2A4E1004BAE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				E470617829D2A4E1004BAE87 /* ContentView.swift */,
 				E470617A29D2A4E4004BAE87 /* Assets.xcassets */,
 				E470617C29D2A4E4004BAE87 /* Preview Content */,
+				2C7C7CF829D3B8B300E01BB1 /* ContentView2.swift */,
+				2C7C7CFA29D3B90E00E01BB1 /* ContentView3.swift */,
 			);
 			path = DemoApp1;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7C7CF929D3B8B300E01BB1 /* ContentView2.swift in Sources */,
 				E470617929D2A4E1004BAE87 /* ContentView.swift in Sources */,
+				2C7C7CFB29D3B90E00E01BB1 /* ContentView3.swift in Sources */,
 				E470617729D2A4E1004BAE87 /* DemoApp1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
