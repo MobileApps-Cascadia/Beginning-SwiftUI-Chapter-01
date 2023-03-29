@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  ContentView2.swift
 //  DemoApp1
 //
-//  Created by Mike Panitz on 3/27/23.
+//  Created by Eddington, Nick on 3/28/23.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView2: View {
     @State var text: String = ""
 
     var body: some View {
@@ -32,8 +33,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView2()
     }
 }
